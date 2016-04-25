@@ -1,0 +1,3 @@
+framework module Brick {
+    header "Brick-Swift.h"
+}

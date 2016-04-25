@@ -1,0 +1,57 @@
+PODS:
+  - Brick (0.4.0):
+    - Sugar (~> 1.0)
+    - Tailor
+  - Cache (1.0.0)
+  - Compass (1.4.0):
+    - Sugar
+  - Fakery (1.1.2):
+    - SwiftyJSON
+  - Imaginary (0.1.0):
+    - Cache
+  - Spots (1.1.2):
+    - Brick
+    - Sugar
+    - Tailor
+  - Sugar (1.0.13)
+  - SwiftyJSON (2.3.2)
+  - Tailor (0.8.0):
+    - Sugar
+
+DEPENDENCIES:
+  - Cache (from `https://github.com/hyperoslo/Cache`)
+  - Compass
+  - Fakery
+  - Imaginary (from `https://github.com/hyperoslo/Imaginary`)
+  - Spots (from `../../`)
+
+EXTERNAL SOURCES:
+  Cache:
+    :git: https://github.com/hyperoslo/Cache
+  Imaginary:
+    :git: https://github.com/hyperoslo/Imaginary
+  Spots:
+    :path: "../../"
+
+CHECKOUT OPTIONS:
+  Cache:
+    :commit: 3fa13067951112c55bd36a4578001681377c81e7
+    :git: https://github.com/hyperoslo/Cache
+  Imaginary:
+    :commit: 243448a070decf6d8fcdc503b14505a2951af680
+    :git: https://github.com/hyperoslo/Imaginary
+
+SPEC CHECKSUMS:
+  Brick: f483a54e15c6a1d15c8b8e475c49d3605381e42c
+  Cache: 78f58bc008313c7a1182967a2ebcb3de9fddecd4
+  Compass: f4b8c37f9b315f0ee4f5e4f71888c54c92992d5d
+  Fakery: a4121424cf731cacc04a5ff1735fcc6e3efc656d
+  Imaginary: feaea646440c68a9b6ed66a46597d548b9a44207
+  Spots: 78980fb3aecbdd3c33ba22ca5c692725360dee72
+  Sugar: ca8778ac9d076fba1366b889e6bc205f376465e4
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+  Tailor: 7388a9bb2ae83db9e07d5940de08eb444efa15a8
+
+PODFILE CHECKSUM: 28ab223e09938592306da973d1540467e2cd0128
+
+COCOAPODS: 1.0.0.beta.5

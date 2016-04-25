@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="oqU-u3-UBv">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DynamicLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="tqn-hA-hNM">
+                                <rect key="frame" x="20" y="64" width="560" height="536"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="ElD-Kx-ypc">
+                                        <rect key="frame" x="0.0" y="203" width="270" height="130"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QPo-nx-wib">
+                                                <rect key="frame" x="0.0" y="0.0" width="270" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xI6-Nf-ZJ9">
+                                                <rect key="frame" x="0.0" y="50" width="270" height="30"/>
+                                                <state key="normal" title="Search List"/>
+                                                <connections>
+                                                    <action selector="version1SearchList:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zZG-9P-ysD"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3mp-sf-Bms">
+                                                <rect key="frame" x="0.0" y="100" width="270" height="30"/>
+                                                <state key="normal" title="Object Page"/>
+                                                <connections>
+                                                    <action selector="version1ObjectPage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F5c-Jg-EVl"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" distribution="fillEqually" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="gTK-dp-AcA">
+                                        <rect key="frame" x="290" y="203" width="270" height="130"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Version 2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mcE-lr-LUZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="270" height="30"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OGh-mb-9KX">
+                                                <rect key="frame" x="0.0" y="50" width="270" height="30"/>
+                                                <state key="normal" title="Search List"/>
+                                                <connections>
+                                                    <action selector="version2SearchList:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Bom-wN-B8D"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBw-QJ-xbU">
+                                                <rect key="frame" x="0.0" y="100" width="270" height="30"/>
+                                                <state key="normal" title="Object Page"/>
+                                                <connections>
+                                                    <action selector="version2ObjectPage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="45o-3A-Mnj"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tqn-hA-hNM" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="5wG-03-2Ue"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tqn-hA-hNM" secondAttribute="bottom" id="A3J-u7-zBl"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tqn-hA-hNM" secondAttribute="trailing" id="Et1-8A-81Y"/>
+                            <constraint firstItem="tqn-hA-hNM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="LOP-hW-czV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="tSX-Fv-XjI"/>
+                    <connections>
+                        <outlet property="version1StackView" destination="ElD-Kx-ypc" id="y9N-qN-aI3"/>
+                        <outlet property="version2StackView" destination="gTK-dp-AcA" id="HlU-Zg-ge5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1042" y="1247"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="VNB-DN-CPy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="oqU-u3-UBv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GFh-Lq-eiR">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="5qm-yD-1nj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hvM-1E-669" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="245" y="1247"/>
+        </scene>
+    </scenes>
+</document>
