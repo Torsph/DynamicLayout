@@ -1,6 +1,6 @@
 {
     "components": [{
-                   "type": "Grid",
+                   "type": "grid",
                    "span":1,
                    "items": [{
                              "type": "imageTitleHorizontal",

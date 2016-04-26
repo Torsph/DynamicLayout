@@ -52,8 +52,6 @@ Grid.views["titleTextBox"] = TitleTextBox.self
 Grid.views["imageTitleBox"] = ImageTitleBox.self
 Grid.views["imageTitleList"] = ImageTitleList.self
 
-ListSpot.views["imageTitleList"] = ImageTitleList.self
-
 Horizontal.views["image"] = Image.self
 Horizontal.views["imageTitleList"] = ImageTitleList.self
 

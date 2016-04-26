@@ -28,10 +28,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Grid.views["imageTitleVertical"] = ImageTitleVertical.self
         Grid.views["imageTitleHorizontal"] = ImageTitleHorizontal.self
 
-        ListSpot.views["imageTitleHorizontal"] = ImageTitleHorizontal.self
-        ListSpot.views["imageTitleVertical"] = ImageTitleVertical.self
-
         Horizontal.views["image"] = Image.self
+        Horizontal.views["titleTextBox"] = TitleTextBox.self
         Horizontal.views["imageTitleHorizontal"] = ImageTitleHorizontal.self
         Horizontal.views["imageTitleVertical"] = ImageTitleVertical.self
 

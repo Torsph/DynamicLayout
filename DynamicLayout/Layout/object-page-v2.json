@@ -1,6 +1,7 @@
 {
     "components": [{
                    "type": "horizontal",
+                   "span":1,
                    "items": [{
                              "type": "image",
                              "image": "http://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/19/8/742/228/58_317852959.jpg"
