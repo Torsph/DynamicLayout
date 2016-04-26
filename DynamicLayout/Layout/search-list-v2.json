@@ -1,148 +1,148 @@
 {
     "components": [{
-                   "type": "horizontal",
+                   "type": "Horizontal",
                    "span": 1,
                    "items": [{
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/2/748/540/32_883887391.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/2/748/540/32_883887391.jpg",
                              "title": "Fiolveien 10",
                              "subtitle": "67 m²   1 690 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/1/670/715/51_337345655.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/1/670/715/51_337345655.jpg",
                              "title": "Nordåsvegen 120",
                              "subtitle": "213 m²   5 600 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/7/747/036/27_818653317.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/7/747/036/27_818653317.jpg",
                              "title": "Nordsivegen 22E",
                              "subtitle": "68 m²   1 050 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/2/746/774/72_566089442.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/2/746/774/72_566089442.jpg",
                              "title": "Storvannsveien 92 Leil. 330",
                              "subtitle": "87 m²   1 350 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/3/748/533/63_833544320.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/3/748/533/63_833544320.jpg",
                              "title": "Bogstadveien 1",
                              "subtitle": "45 m²   3 700 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/4/748/534/04_151820084.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/4/748/534/04_151820084.jpg",
                              "title": "Sjøgata 6",
                              "subtitle": "50 m²   430 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/5/748/531/35_1129012124.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/5/748/531/35_1129012124.jpg",
                              "title": "Stasjonsveien 23",
                              "subtitle": "231 m²   9 850 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/3/748/530/23_380339410.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/3/748/530/23_380339410.jpg",
                              "title": "Hamnegata 22",
                              "subtitle": "127 m²   3 625 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/3/748/533/63_833544320.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/3/748/533/63_833544320.jpg",
                              "title": "Bogstadveien 1",
                              "subtitle": "45 m²   3 700 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/4/748/534/04_151820084.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/4/748/534/04_151820084.jpg",
                              "title": "Sjøgata 6",
                              "subtitle": "50 m²   430 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/5/748/531/35_1129012124.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/5/748/531/35_1129012124.jpg",
                              "title": "Stasjonsveien 23",
                              "subtitle": "231 m²   9 850 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/3/748/530/23_380339410.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/3/748/530/23_380339410.jpg",
                              "title": "Hamnegata 22",
                              "subtitle": "127 m²   3 625 000,-",
                              "meta": {}
                              },{
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/2/748/540/32_883887391.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/2/748/540/32_883887391.jpg",
                              "title": "Fiolveien 10",
                              "subtitle": "67 m²   1 690 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/1/670/715/51_337345655.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/1/670/715/51_337345655.jpg",
                              "title": "Nordåsvegen 120",
                              "subtitle": "213 m²   5 600 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/7/747/036/27_818653317.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/7/747/036/27_818653317.jpg",
                              "title": "Nordsivegen 22E",
                              "subtitle": "68 m²   1 050 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/2/746/774/72_566089442.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/2/746/774/72_566089442.jpg",
                              "title": "Storvannsveien 92 Leil. 330",
                              "subtitle": "87 m²   1 350 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/7/747/036/27_818653317.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/7/747/036/27_818653317.jpg",
                              "title": "Nordsivegen 22E",
                              "subtitle": "68 m²   1 050 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/2/746/774/72_566089442.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/2/746/774/72_566089442.jpg",
                              "title": "Storvannsveien 92 Leil. 330",
                              "subtitle": "87 m²   1 350 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/3/748/533/63_833544320.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/3/748/533/63_833544320.jpg",
                              "title": "Bogstadveien 1",
                              "subtitle": "45 m²   3 700 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/4/748/534/04_151820084.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/4/748/534/04_151820084.jpg",
                              "title": "Sjøgata 6",
                              "subtitle": "50 m²   430 000,-",
                              "meta": {}
                              },{
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/2/748/540/32_883887391.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/2/748/540/32_883887391.jpg",
                              "title": "Fiolveien 10",
                              "subtitle": "67 m²   1 690 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/1/670/715/51_337345655.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/1/670/715/51_337345655.jpg",
                              "title": "Nordåsvegen 120",
                              "subtitle": "213 m²   5 600 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/5/748/531/35_1129012124.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/5/748/531/35_1129012124.jpg",
                              "title": "Stasjonsveien 23",
                              "subtitle": "231 m²   9 850 000,-",
                              "meta": {}
                              }, {
                              "type": "HCard",
-                             "image": "http://apps.finn.no/api/image/2016/4/vertical-2/25/3/748/530/23_380339410.jpg",
+                             "image": "https://finncdn.global.ssl.fastly.net//mmo/2016/4/vertical-2/25/3/748/530/23_380339410.jpg",
                              "title": "Hamnegata 22",
                              "subtitle": "127 m²   3 625 000,-",
                              "meta": {}
