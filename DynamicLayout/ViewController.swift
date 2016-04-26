@@ -47,10 +47,19 @@ class ViewController: UIViewController {
     @IBAction func version2ObjectPage(sender: AnyObject) {
         loadFile("object-page-v2")
     }
-
+    @IBAction func versionSyncAndroid(sender: AnyObject) {
+        loadFile("http://pastebin.com/raw/mtE4rkb5")
+    }
     private func loadFile(fileToLoad: String) {
-        let bundlePath = NSBundle.mainBundle().pathForResource(fileToLoad, ofType: "json")
-        let data = NSFileManager.defaultManager().contentsAtPath(bundlePath!)
+
+        var data: NSData?
+
+        if fileToLoad.hasPrefix("http") {
+            data = NSData(contentsOfURL: NSURL(string: fileToLoad)!)
+        } else {
+            let bundlePath = NSBundle.mainBundle().pathForResource(fileToLoad, ofType: "json")
+            data = NSFileManager.defaultManager().contentsAtPath(bundlePath!)
+        }
 
         do {
             let json = try NSJSONSerialization.JSONObjectWithData(data!, options: .AllowFragments) as? [String : AnyObject]
