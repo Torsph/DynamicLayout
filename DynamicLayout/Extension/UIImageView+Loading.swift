@@ -8,6 +8,8 @@
 
 import UIKit
 
+//Simple loading of images.
+//Not production ready. 
 extension UIImageView {
     func fromURL(url:NSURL?) {
 
@@ -25,7 +27,6 @@ extension UIImageView {
 
             dispatch_async(dispatch_get_main_queue()) { () -> Void in
                 self.image = image
-                self.invalidateIntrinsicContentSize()
             }
         }).resume()
     }
