@@ -1,5 +1,5 @@
 //
-//  TitleTextBox.swift
+//  Text.swift
 //  DynamicLayout
 //
 //  Created by Thomas Torp on 22/04/16.
@@ -11,7 +11,7 @@ import Sugar
 import Spots
 import Brick
 
-class TitleTextBox : UICollectionViewCell {
+class Text: UICollectionViewCell {
 
     //Internal vars
     lazy var stackView : UIStackView = {
@@ -68,7 +68,7 @@ class TitleTextBox : UICollectionViewCell {
 
 }
 
-extension TitleTextBox: SpotConfigurable {
+extension Text: SpotConfigurable {
 
     var size: CGSize {
         get {

@@ -12,7 +12,7 @@ import Sugar
 import Spots
 import Brick
 
-class ImageTitleHorizontal : UICollectionViewCell {
+class HCard : UICollectionViewCell {
 
     //Internal vars
     lazy var stackView : UIStackView = {
@@ -85,7 +85,7 @@ class ImageTitleHorizontal : UICollectionViewCell {
 
 }
 
-extension ImageTitleHorizontal: SpotConfigurable {
+extension HCard: SpotConfigurable {
 
     var size: CGSize {
         get {
@@ -105,9 +105,6 @@ extension ImageTitleHorizontal: SpotConfigurable {
         
         titleLabel.text = item.title
         subtitleLabel.text = item.subtitle
-
-        titleLabel.sizeToFit()
-        subtitleLabel.sizeToFit()
 
         item.size.width = UIScreen.mainScreen().bounds.width
     }

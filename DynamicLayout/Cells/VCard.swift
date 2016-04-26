@@ -11,7 +11,7 @@ import Sugar
 import Spots
 import Brick
 
-class ImageTitleVertical : UICollectionViewCell {
+class VCard : UICollectionViewCell {
 
     //Internal vars
     lazy var stackView : UIStackView = {
@@ -75,7 +75,7 @@ class ImageTitleVertical : UICollectionViewCell {
     }
 }
 
-extension ImageTitleVertical: SpotConfigurable {
+extension VCard: SpotConfigurable {
 
     var size: CGSize {
         get {

@@ -23,18 +23,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let sharedCache = NSURLCache(memoryCapacity: cacheSizeMemory, diskCapacity: cacheSizeDisk, diskPath: "cache")
         NSURLCache.setSharedURLCache(sharedCache)
 
-        Grid.views["image"] = Image.self
-        Grid.views["titleTextBox"] = TitleTextBox.self
-        Grid.views["imageTitleVertical"] = ImageTitleVertical.self
-        Grid.views["imageTitleHorizontal"] = ImageTitleHorizontal.self
+        Grid.views["Image"] = Image.self
+        Grid.views["Text"] = Text.self
+        Grid.views["VCard"] = VCard.self
+        Grid.views["HCard"] = HCard.self
 
-        Horizontal.views["image"] = Image.self
-        Horizontal.views["titleTextBox"] = TitleTextBox.self
-        Horizontal.views["imageTitleHorizontal"] = ImageTitleHorizontal.self
-        Horizontal.views["imageTitleVertical"] = ImageTitleVertical.self
+        Horizontal.views["Image"] = Image.self
+        Horizontal.views["Text"] = Text.self
+        Horizontal.views["HCard"] = HCard.self
+        Horizontal.views["VCard"] = VCard.self
 
-        SpotFactory.register("grid", spot: Grid.self)
-        SpotFactory.register("horizontal", spot: Horizontal.self)
+        SpotFactory.register("Grid", spot: Grid.self)
+        SpotFactory.register("Horizontal", spot: Horizontal.self)
 
         SpotsController.configure = {
             $0.backgroundColor = UIColor.whiteColor()

@@ -17,8 +17,8 @@
 		AD4833231CC8A9F100DFAAD2 /* Sugar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD48331F1CC8A9F100DFAAD2 /* Sugar.framework */; };
 		AD4833241CC8A9F100DFAAD2 /* Tailor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4833201CC8A9F100DFAAD2 /* Tailor.framework */; };
 		AD4833291CC8AB4700DFAAD2 /* object-page-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = AD4833281CC8AB4700DFAAD2 /* object-page-v1.json */; };
-		AD48332E1CC8ABF200DFAAD2 /* ImageTitleVertical.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48332B1CC8ABF200DFAAD2 /* ImageTitleVertical.swift */; };
-		AD48332F1CC8ABF200DFAAD2 /* TitleTextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48332C1CC8ABF200DFAAD2 /* TitleTextBox.swift */; };
+		AD48332E1CC8ABF200DFAAD2 /* VCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48332B1CC8ABF200DFAAD2 /* VCard.swift */; };
+		AD48332F1CC8ABF200DFAAD2 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48332C1CC8ABF200DFAAD2 /* Text.swift */; };
 		AD4833301CC8ABF200DFAAD2 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD48332D1CC8ABF200DFAAD2 /* Image.swift */; };
 		AD4833331CC8E4B400DFAAD2 /* UIImageView+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4833321CC8E4B400DFAAD2 /* UIImageView+Loading.swift */; };
 		AD4833361CCA45E800DFAAD2 /* Grid.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4833351CCA45E800DFAAD2 /* Grid.swift */; };
@@ -27,7 +27,7 @@
 		AD57ABDF1CCE0AF3003E8663 /* object-page-v2.json in Resources */ = {isa = PBXBuildFile; fileRef = AD57ABDE1CCE0AF3003E8663 /* object-page-v2.json */; };
 		AD57ABE11CCE0B0A003E8663 /* search-list-v1.json in Resources */ = {isa = PBXBuildFile; fileRef = AD57ABE01CCE0B0A003E8663 /* search-list-v1.json */; };
 		AD57ABE31CCE0B12003E8663 /* search-list-v2.json in Resources */ = {isa = PBXBuildFile; fileRef = AD57ABE21CCE0B12003E8663 /* search-list-v2.json */; };
-		AD57ABE51CCE0D5F003E8663 /* ImageTitleHorizontal.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD57ABE41CCE0D5E003E8663 /* ImageTitleHorizontal.swift */; };
+		AD57ABE51CCE0D5F003E8663 /* HCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD57ABE41CCE0D5E003E8663 /* HCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,8 +43,8 @@
 		AD48331F1CC8A9F100DFAAD2 /* Sugar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sugar.framework; path = Carthage/Build/iOS/Sugar.framework; sourceTree = "<group>"; };
 		AD4833201CC8A9F100DFAAD2 /* Tailor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Tailor.framework; path = Carthage/Build/iOS/Tailor.framework; sourceTree = "<group>"; };
 		AD4833281CC8AB4700DFAAD2 /* object-page-v1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "object-page-v1.json"; sourceTree = "<group>"; };
-		AD48332B1CC8ABF200DFAAD2 /* ImageTitleVertical.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTitleVertical.swift; sourceTree = "<group>"; };
-		AD48332C1CC8ABF200DFAAD2 /* TitleTextBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitleTextBox.swift; sourceTree = "<group>"; };
+		AD48332B1CC8ABF200DFAAD2 /* VCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCard.swift; sourceTree = "<group>"; };
+		AD48332C1CC8ABF200DFAAD2 /* Text.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
 		AD48332D1CC8ABF200DFAAD2 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		AD4833321CC8E4B400DFAAD2 /* UIImageView+Loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Loading.swift"; sourceTree = "<group>"; };
 		AD4833351CCA45E800DFAAD2 /* Grid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Grid.swift; sourceTree = "<group>"; };
@@ -53,7 +53,7 @@
 		AD57ABDE1CCE0AF3003E8663 /* object-page-v2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "object-page-v2.json"; sourceTree = "<group>"; };
 		AD57ABE01CCE0B0A003E8663 /* search-list-v1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "search-list-v1.json"; sourceTree = "<group>"; };
 		AD57ABE21CCE0B12003E8663 /* search-list-v2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "search-list-v2.json"; sourceTree = "<group>"; };
-		AD57ABE41CCE0D5E003E8663 /* ImageTitleHorizontal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTitleHorizontal.swift; sourceTree = "<group>"; };
+		AD57ABE41CCE0D5E003E8663 /* HCard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,10 +131,10 @@
 		AD48332A1CC8ABE800DFAAD2 /* Item */ = {
 			isa = PBXGroup;
 			children = (
-				AD48332B1CC8ABF200DFAAD2 /* ImageTitleVertical.swift */,
-				AD48332C1CC8ABF200DFAAD2 /* TitleTextBox.swift */,
+				AD48332B1CC8ABF200DFAAD2 /* VCard.swift */,
+				AD48332C1CC8ABF200DFAAD2 /* Text.swift */,
 				AD48332D1CC8ABF200DFAAD2 /* Image.swift */,
-				AD57ABE41CCE0D5E003E8663 /* ImageTitleHorizontal.swift */,
+				AD57ABE41CCE0D5E003E8663 /* HCard.swift */,
 			);
 			name = Item;
 			path = Cells;
@@ -256,11 +256,11 @@
 				AD4833301CC8ABF200DFAAD2 /* Image.swift in Sources */,
 				AD48333A1CCA613E00DFAAD2 /* Horizontal.swift in Sources */,
 				AD57ABDD1CCDEFA7003E8663 /* README.md in Sources */,
-				AD48332F1CC8ABF200DFAAD2 /* TitleTextBox.swift in Sources */,
+				AD48332F1CC8ABF200DFAAD2 /* Text.swift in Sources */,
 				AD48330E1CC8A6BF00DFAAD2 /* ViewController.swift in Sources */,
 				AD48330C1CC8A6BF00DFAAD2 /* AppDelegate.swift in Sources */,
-				AD57ABE51CCE0D5F003E8663 /* ImageTitleHorizontal.swift in Sources */,
-				AD48332E1CC8ABF200DFAAD2 /* ImageTitleVertical.swift in Sources */,
+				AD57ABE51CCE0D5F003E8663 /* HCard.swift in Sources */,
+				AD48332E1CC8ABF200DFAAD2 /* VCard.swift in Sources */,
 				AD4833361CCA45E800DFAAD2 /* Grid.swift in Sources */,
 				AD4833331CC8E4B400DFAAD2 /* UIImageView+Loading.swift in Sources */,
 			);
