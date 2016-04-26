@@ -49,11 +49,13 @@ To add new component or item you must register them into the SDK. This is curren
 ```
 Grid.views["image"] = Image.self
 Grid.views["titleTextBox"] = TitleTextBox.self
-Grid.views["imageTitleBox"] = ImageTitleBox.self
-Grid.views["imageTitleList"] = ImageTitleList.self
+Grid.views["imageTitleVertical"] = ImageTitleVertical.self
+Grid.views["imageTitleHorizontal"] = ImageTitleHorizontal.self
 
 Horizontal.views["image"] = Image.self
-Horizontal.views["imageTitleList"] = ImageTitleList.self
+Horizontal.views["titleTextBox"] = TitleTextBox.self
+Horizontal.views["imageTitleHorizontal"] = ImageTitleHorizontal.self
+Horizontal.views["imageTitleVertical"] = ImageTitleVertical.self
 
 SpotFactory.register("grid", spot: Grid.self)
 SpotFactory.register("horizontal", spot: Horizontal.self)
