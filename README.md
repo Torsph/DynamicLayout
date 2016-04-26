@@ -47,15 +47,15 @@ In the meta dictonary could include for example font type, size, color, etc. It'
 To add new component or item you must register them into the SDK. This is currently done in the AppDelegate.swift
 
 ```
-GridSpot.views["image"] = Image.self
-GridSpot.views["titleTextBox"] = TitleTextBox.self
-GridSpot.views["imageTitleBox"] = ImageTitleBox.self
-GridSpot.views["imageTitleList"] = ImageTitleList.self
+Grid.views["image"] = Image.self
+Grid.views["titleTextBox"] = TitleTextBox.self
+Grid.views["imageTitleBox"] = ImageTitleBox.self
+Grid.views["imageTitleList"] = ImageTitleList.self
 
 ListSpot.views["imageTitleList"] = ImageTitleList.self
 
-CarouselSpot.views["image"] = Image.self
-CarouselSpot.views["imageTitleList"] = ImageTitleList.self
+Horizontal.views["image"] = Image.self
+Horizontal.views["imageTitleList"] = ImageTitleList.self
 
 SpotFactory.register("grid", spot: Grid.self)
 SpotFactory.register("horizontal", spot: Horizontal.self)

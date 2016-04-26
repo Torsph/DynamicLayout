@@ -16,24 +16,24 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
 
+        // Set the cache size to start caching images.
         let cacheSizeMemory = 500*1024*1024; // 500 MB
         let cacheSizeDisk = 500*1024*1024; // 500 MB
         let sharedCache = NSURLCache(memoryCapacity: cacheSizeMemory, diskCapacity: cacheSizeDisk, diskPath: "cache")
         NSURLCache.setSharedURLCache(sharedCache)
 
-        GridSpot.views["image"] = Image.self
-        GridSpot.views["titleTextBox"] = TitleTextBox.self
-        GridSpot.views["imageTitleVertical"] = ImageTitleVertical.self
-        GridSpot.views["imageTitleHorizontal"] = ImageTitleHorizontal.self
+        Grid.views["image"] = Image.self
+        Grid.views["titleTextBox"] = TitleTextBox.self
+        Grid.views["imageTitleVertical"] = ImageTitleVertical.self
+        Grid.views["imageTitleHorizontal"] = ImageTitleHorizontal.self
 
         ListSpot.views["imageTitleHorizontal"] = ImageTitleHorizontal.self
         ListSpot.views["imageTitleVertical"] = ImageTitleVertical.self
 
-        CarouselSpot.views["image"] = Image.self
-        CarouselSpot.views["imageTitleHorizontal"] = ImageTitleHorizontal.self
-        CarouselSpot.views["imageTitleVertical"] = ImageTitleVertical.self
+        Horizontal.views["image"] = Image.self
+        Horizontal.views["imageTitleHorizontal"] = ImageTitleHorizontal.self
+        Horizontal.views["imageTitleVertical"] = ImageTitleVertical.self
 
         SpotFactory.register("grid", spot: Grid.self)
         SpotFactory.register("horizontal", spot: Horizontal.self)
