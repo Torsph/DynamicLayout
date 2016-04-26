@@ -9,12 +9,21 @@
                              "image": "https://finncdn.global.ssl.fastly.net/dynamic/1280w/2016/4/vertical-2/19/8/742/228/58_659847891.jpg"
                              }, {
                              "type": "image",
+                             "size": {
+                                "width":100,
+                                "height":100
+                             },
                              "image": "https://finncdn.global.ssl.fastly.net/dynamic/1280w/2016/4/vertical-2/19/8/742/228/58_1078919284.jpg"
                              }, {
                              "type": "image",
                              "image": "https://finncdn.global.ssl.fastly.net/dynamic/1280w/2016/4/vertical-2/19/8/742/228/58_1477953418.jpg"
-                             }, {
+                             },
+                             {
                              "type": "image",
+                             "size": {
+                                "width":100,
+                                "height":100
+                             },
                              "image": "https://finncdn.global.ssl.fastly.net/dynamic/1280w/2016/4/vertical-2/19/8/742/228/58_1180365849.jpg"
                              }]
                    }, {

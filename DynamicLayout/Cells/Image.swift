@@ -13,10 +13,10 @@ import Brick
 
 class Image : UICollectionViewCell, SpotConfigurable {
 
-    var size = CGSize(width: 0, height: 320)
+    var size = CGSizeMake(200, 200)
     lazy var imageView: UIImageView = {
         let imageView = UIImageView()
-        imageView.contentMode = .ScaleAspectFill
+        imageView.contentMode = .ScaleAspectFit
         return imageView
     }()
 
@@ -30,16 +30,23 @@ class Image : UICollectionViewCell, SpotConfigurable {
         fatalError("init(coder:) has not been implemented")
     }
 
+    // The first cell must be the larges one.
     func configure(inout item: ViewModel) {
         optimize()
+
+        if item.size.height == 0 {
+            item.size = size
+        } else if item.size.width == 0 {
+            item.size = CGSizeMake(UIScreen.mainScreen().bounds.width, size.height)
+        }
 
         if !item.image.isEmpty {
             imageView.image = nil
             imageView.fromURL(NSURL(string: item.image))
         }
 
-        imageView.frame = contentView.frame
-        item.size.height = 320
-        item.size.width = UIScreen.mainScreen().bounds.width
+
+        imageView.frame.size = item.size
+
     }
 }
